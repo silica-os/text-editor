@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Name=Text Editor
+Name[it]=Editor di testo
+GenericName=Text Editor
+GenericName[it]=Editor di testo
+Comment=Write and edit plain and rich text documents
+Comment[it]=Scrivi e modifica documenti di testo semplice e formattato
+Exec=@EMBEDDER@ --size 800x600 --title "Text Editor" --app-id dev.frascella.TextEditor --multi-window @BUNDLE@ %F
+Icon=accessories-text-editor
+X-Silica-Icon=text-editor
+StartupWMClass=dev.frascella.TextEditor
+MimeType=text/plain;text/rtf;application/rtf;text/markdown;text/x-log;
+Categories=Utility;TextEditor;
+Keywords=text;editor;rtf;txt;document;
+Keywords[it]=testo;editor;rtf;txt;documento;
+Terminal=false
+OnlyShowIn=Silica;

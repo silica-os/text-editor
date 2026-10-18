@@ -1,0 +1,260 @@
+{
+  "@@locale": "en",
+  "actualSize": "Actual Size",
+  "appTitle": "Text Editor",
+  "bigger": "Bigger",
+  "bold": "Bold",
+  "bulletedList": "Bulleted List",
+  "cancel": "Cancel",
+  "changedOnDiskMessage": "Another app changed the file since you opened it. Saving replaces its changes.",
+  "clear": "Clear",
+  "clearMenu": "Clear Menu",
+  "copy": "Copy",
+  "cut": "Cut",
+  "decreaseIndent": "Decrease Indent",
+  "documentInfo": "Document Info",
+  "done": "Done",
+  "dontSave": "Don’t Save",
+  "duplicate": "Duplicate",
+  "edited": "Edited",
+  "encodingAutomatic": "Automatic",
+  "encodingLatin1": "Western (ISO Latin 1)",
+  "encodingUtf16be": "Unicode (UTF-16 Big Endian)",
+  "encodingUtf16le": "Unicode (UTF-16 Little Endian)",
+  "encodingUtf8": "Unicode (UTF-8)",
+  "find": "Find",
+  "findAndReplaceEllipsis": "Find and Replace…",
+  "findEllipsis": "Find…",
+  "findNext": "Find Next",
+  "findPrevious": "Find Previous",
+  "font": "Font",
+  "fontSize": "Size",
+  "formatPlain": "Plain text",
+  "formatRich": "Rich text (RTF)",
+  "increaseIndent": "Increase Indent",
+  "infoCharacters": "Characters",
+  "infoEncoding": "Encoding",
+  "infoFormat": "Format",
+  "infoModified": "Modified",
+  "infoPages": "Pages",
+  "infoParagraphs": "Paragraphs",
+  "infoSize": "Size",
+  "infoWords": "Words",
+  "italic": "Italic",
+  "lastOpenedVersion": "Last Opened Version",
+  "lastSavedVersion": "Last Saved Version",
+  "makePlainMessage": "Bold, italic, fonts, sizes and colours are removed.",
+  "makePlainText": "Make Plain Text",
+  "makePlainTitle": "Convert this document to plain text?",
+  "makeRichText": "Make Rich Text",
+  "matchCase": "Match case",
+  "menuEdit": "Edit",
+  "menuFile": "File",
+  "menuFind": "Find",
+  "menuFont": "Font",
+  "menuFormat": "Format",
+  "menuHelp": "Help",
+  "menuLists": "Lists",
+  "menuStyle": "Style",
+  "menuView": "View",
+  "menuWindow": "Window",
+  "nameLabel": "Name:",
+  "newDocument": "New",
+  "noFileDialog": "The file dialog isn’t available.",
+  "notFound": "Not found",
+  "numberedList": "Numbered List",
+  "ok": "OK",
+  "open": "Open",
+  "openDirectory": "It is a folder.",
+  "openEllipsis": "Open…",
+  "openMissing": "The file doesn’t exist.",
+  "openNotText": "The file isn’t text.",
+  "openRecent": "Open Recent",
+  "openUnreadable": "You don’t have permission to read it.",
+  "paragraphStyle": "Paragraph style",
+  "paste": "Paste",
+  "presetBody": "Body",
+  "presetHeading": "Heading",
+  "presetMono": "Monospaced",
+  "presetOther": "Other",
+  "presetSubheading": "Subheading",
+  "presetTitle": "Title",
+  "renameEllipsis": "Rename…",
+  "reopen": "Reopen",
+  "reopenMessage": "Your changes will be lost.",
+  "reopenTitle": "Reopen the document with another encoding?",
+  "reopenWithEncoding": "Reopen with Encoding",
+  "replace": "Replace",
+  "replaceAll": "Replace All",
+  "revert": "Revert",
+  "revertMessage": "The changes since the last save will be lost.",
+  "revertTo": "Revert To",
+  "save": "Save",
+  "saveAnyway": "Save Anyway",
+  "saveAs": "Save As",
+  "saveAsEllipsis": "Save As…",
+  "saveChangesMessage": "Your changes will be lost if you don’t save them.",
+  "saveEllipsis": "Save…",
+  "selectAll": "Select All",
+  "settingsAutosave": "Save changes automatically",
+  "settingsNewFormat": "New documents:",
+  "settingsOpenEncoding": "Open plain text as:",
+  "settingsPlainSize": "Plain text size:",
+  "settingsRichFont": "Rich text font:",
+  "settingsSaveEncoding": "Save new plain text as:",
+  "settingsTitle": "Settings",
+  "share": "Share",
+  "showDocumentInfo": "Show Document Info",
+  "smaller": "Smaller",
+  "strikethrough": "Strikethrough",
+  "textColour": "Text colour",
+  "textEncoding": "Text Encoding",
+  "underline": "Underline",
+  "untitled": "Untitled",
+  "useSelectionForFind": "Use Selection for Find",
+  "whereLabel": "Where:",
+  "wrapToPage": "Wrap to Page",
+  "wrapToWindow": "Wrap to Window",
+  "zoomIn": "Zoom In",
+  "zoomOut": "Zoom Out",
+  "bytes": "{count} bytes",
+  "@bytes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cannotEncodeMessage": "“{character}” has no place in this encoding. Choose Unicode (UTF-8) to keep every character.",
+  "@cannotEncodeMessage": {
+    "placeholders": {
+      "character": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotEncodeTitle": "The document can’t be saved as {encoding}.",
+  "@cannotEncodeTitle": {
+    "placeholders": {
+      "encoding": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotOpenTitle": "“{name}” can’t be opened.",
+  "@cannotOpenTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotRenameTitle": "The document can’t be renamed “{name}”.",
+  "@cannotRenameTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotSaveTitle": "“{name}” can’t be saved.",
+  "@cannotSaveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "changedOnDiskTitle": "“{name}” was changed by another app.",
+  "@changedOnDiskTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "kilobytes": "{count} KB",
+  "@kilobytes": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "matchOf": "{index} of {count}",
+  "@matchOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "matches": "{count, plural, =1{1 match} other{{count} matches}}",
+  "@matches": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "megabytes": "{count} MB",
+  "@megabytes": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "revertTitle": "Revert “{name}” to the last saved version?",
+  "@revertTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "saveChangesTitle": "Do you want to save the changes you made to “{name}”?",
+  "@saveChangesTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "statusLine": "{format} · {encoding} · Line {line}, column {column}",
+  "@statusLine": {
+    "placeholders": {
+      "format": {
+        "type": "String"
+      },
+      "encoding": {
+        "type": "String"
+      },
+      "line": {
+        "type": "int"
+      },
+      "column": {
+        "type": "int"
+      }
+    }
+  },
+  "todayAt": "Today, {time}",
+  "@todayAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "untitledNumber": "Untitled {number}",
+  "@untitledNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  }
+}

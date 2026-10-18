@@ -15,3 +15,5 @@ copied from `silica-icons` (`apps/text-editor`).
 | `icon/icon-tinted-dark.png` | Silica project | CC BY-SA 4.0 | `silica-icons` `apps/text-editor` (branch `amalfi-icons`, 2713df9) |
 | `icon/icon-tinted.png` | Silica project | CC BY-SA 4.0 | `silica-icons` `apps/text-editor` (branch `amalfi-icons`, 2713df9) |
 | `icon/icon.png` | Silica project | CC BY-SA 4.0 | `silica-icons` `apps/text-editor` (branch `amalfi-icons`, 2713df9) |
+| `.github/silica-logo-light.svg` | Silica project | Silica trademark, all rights reserved (`silica-brand/TRADEMARKS.md`) | original, `silica-brand/exports/logotype/silica-logotype-horizontal-light.svg` |
+| `.github/silica-logo-dark.svg` | Silica project | Silica trademark, all rights reserved (`silica-brand/TRADEMARKS.md`) | original, `silica-brand/exports/logotype/silica-logotype-horizontal-dark.svg` |
