@@ -1,0 +1,32 @@
+# Text Editor as a Silica app bundle (silica-os docs/app-bundles.md): silica-packages and
+# `cargo xtask os deploy` fill the placeholders and sign it. A system app: from /usr/Applications
+# it runs without a sandbox; [permissions] is what a copy elsewhere is given.
+format = 1
+id = "dev.frascella.TextEditor"
+name = "Text Editor"
+"name.it" = "Editor di testo"
+generic_name = "Text Editor"
+comment = "Write and edit plain and rich text documents"
+version = "@VERSION@"
+build = @BUILD@
+minimum_silica = "0.2.0"
+kind = "flutter"
+runtime = "dev.silica.Platform//1"
+args = ["--size", "800x600", "--title", "Text Editor", "--multi-window"]
+categories = ["Utility", "TextEditor"]
+keywords = ["text", "editor", "rtf", "txt", "document", "testo", "documento"]
+
+[types]
+"text/plain" = "editor"
+"text/rtf" = "editor"
+"application/rtf" = "editor"
+"text/markdown" = "editor"
+"text/x-log" = "editor"
+
+[permissions]
+network = false
+devices = "gpu"
+
+[developer]
+name = "Silica"
+key = "@DEVELOPER_KEY@"
